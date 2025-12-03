@@ -74,10 +74,14 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      {{ title | summary }}
+     <p class="alert alert-secondary">
+       {{ title | summary }}
+     </p>
       <hr />
-
-      {{ title | summary : 100 }}
+<p class="alert alert-success">
+ 
+      {{ title | summary : 100 }} 
+</p>
     </div>
   </div>
 </div>
@@ -88,8 +92,39 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-12">
-      {{ para1 | summary2 : 100 }}
+     <p class="alert alert-danger">
+       {{ para1 | summary2 : 100 }}
+     </p>
       <hr />
     </div>
   </div>
+</div>
+
+
+<hr>
+
+
+
+<div class="container mt-5">
+<div class="row">
+  <div class="col-12">
+    <!-- {{para2 | summary1}} -->
+<p class="alert alert-info">
+       {{para2 | summary1 :100}}
+</p>
+  </div>
+</div>
+</div>
+
+
+
+<div class="container mt-5">
+<div class="row">
+  <div class="col-12">
+    <!-- {{para2 | summary1}} -->
+    <p class="alert alert-dark">
+       {{para3 | summary1 :100}}
+    </p>
+  </div>
+</div>
 </div>

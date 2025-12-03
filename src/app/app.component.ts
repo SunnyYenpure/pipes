@@ -10,6 +10,10 @@ export class AppComponent {
 
 para1='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta maxime nobis est natus quisquam ex sed facilis illoLorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta maxime nobis est natus quisquam ex sed facilis illo'
 
+para2='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta maxime nobis est natus quisquam ex sed facilis illoLorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta maxime nobis est natus quisquam ex sed facilis illo'
+
+
+para3='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta maxime nobis est natus quisquam ex sed facilis illoLorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dicta maxime nobis est natus quisquam ex sed facilis illo'
 
   courcedetails={
     title:'MEAN  STACK',

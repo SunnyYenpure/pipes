@@ -11,6 +11,10 @@ export class summarypipe2 implements PipeTransform {
 
     let words = value.split(' '); 
     let result = words.slice(0, limit).join(' ') + '...'; 
-    return result;
+    return result; 
   }
 }
+
+
+///************************************************/ */
+
